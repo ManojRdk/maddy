@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="short icon" href="logo.png" type="x-icon" >
+    <title>linkify page</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/e8fa2e31b4.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@700;900&family=Rowdies&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input type="checkbox" name="" id="check">
+    <div class="container">
+        <label for="check">
+            <span class="fas fa-times" id="times"></span>
+            <span class="fas fa-bars" id="bars"></span>
+        </label>
+        
+        <ol>
+            <div class="bottom">
+                <p>sign up</p>
+            </div>
+            <li><a href="socialmedia.html"><i class="bx bxl-meta"></i>Social media</a></li>
+            <hr>
+            <li><a href="music.html"><i class="bx bx-music icon"></i>Music</a></li>
+            <hr>
+            <li><a href="website.html"><i class="bx bxl-internet-explorer icon"></i>Websites</a></li>
+            <hr>
+            <li><a href="shopping.html"><i class="bx bxl-shopify icon'"></i>Shopping</a></li>
+            <hr>
+            <li><a href="education.html"><i class="bx bxs-graduation icon"></i>Education</a></li>
+            <hr>
+            <li><a href="design.html"><i class="bx bxl-99designs icon"></i>Designs</a></li>
+            <hr>
+            <li><a href="fonticons.html"><i class="bx bx-code-alt icon"></i>Icons</a></li>
+            <hr>
+            <li><a href="photo.html"><i class='bx bx-photo-album'></i>Photo editing</a></li>
+            <hr>
+            <li><a href="video.html"><i class='bx bxs-videos'></i>Video editing</a></li>
+          
+            <hr class="us">
+        </ol>
+        <div  class="contact">
+            <h1>Get in touch</h1>
+            <a href="https://instagram.com/_mano.2_?igshid=OGQ5ZDc2ODk2ZA=="><i class='bx bxl-instagram' style='color:#ffffff'></i></a>
+            <a href="https://www.facebook.com/Manoj01R?mibextid=ZbWKwL"><i class='bx bxl-facebook' style='color:#ffffff'  ></i></a>
+            <a href="https://x.com/Manojrdk15?t=gU7QMBguGnP2W2OgkCEkLA&s=08"><i class='bx bxl-twitter' style='color:#ffffff'></i></a>
+            <a href="https://www.linkedin.com/in/manoj-r-59a304278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'style='color:#ffffff'></i></a>
+        </div>
+    </div>
+ 
+        <!--content-->
+ 
+ <section class="home">
+    <div class="container-bar">
+            <img src="Group 2.svg" alt="" height="30">  
+        <div class="user">
+            
+                <li><a href="#"><i class='bx bxs-help-circle' style='color:#f3efef'></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">HOW DO USE</a></li>
+                        <li><a href="#">features</a></li>
+                        <li><a href="#">contacts</a></li>
+                    </ul>
+                </li>
+                <div class="main">
+                    <div class="bx bx-help" id="menu-icon"></div>
+            </div>
+        </div>
+    </div>
+
+            <div class="text">   
+                <h1>Explore Linkify Online,</h1> 
+                <h2>the ultimate tool for</h2>
+                <h3>seamless link sharing</h3> 
+                <h4> and organization.</h4> 
+            </div>
+            <ol class="box">
+                <li class="search">
+                    <input class="search" placeholder="Search..." id="searchBar" name="searchBar" type="text">
+                    <i class='bx bx-search'></i>
+                </li>
+            </ol>
+            <div class="containerm">
+        
+             
+            <a href="socialmedia.html">
+            <button class="social">#social media</button></a>
+            <a href="shopping.html">
+            <button class="social">#shopping</button></a>
+            <a href="website.html">
+            <button class="social">#Websites</button></a>
+            <a href="music.html">
+            <button class="social">#Music</button> </a>  
+            
+               
+          
+    
+                <div class="body">
+                    <div id="root"></div>
+                </div>
+            </div>
+        
+    
+        <script>
+            const product = [
+                {
+                    id: 0,
+                    home:'instagram',
+                    image: 'instagram-icon.png',
+                    title: 'Instagram',
+                    "link": 'www.instagram.com',
+                    url:'https://www.instagram.com/', 
+                    share:'link-share.png',
+                },
+                {
+                    id: 1,
+                    home:'linkedin',
+                    image: 'linkedin-main.png',
+                    title: 'Linkedin',
+                    link: 'www.linkedin.com',
+                    url:'https://www.linkedin.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 2,
+                    home:'pinterest',
+                    image: 'pinterest-img.png',
+                    title: 'Pinterest',
+                    link: "www.pinterest.com",
+                    url:'https://www.pinterest.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 3,
+                    home:'youtube',
+                    image: 'youtube-img.png',
+                    title: 'Youtube',
+                    link: 'www.youtube.com',
+                    url:'https://www.youtube.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 4,
+                    home:'tiktok',
+                    image: 'tiktok-img.png',
+                    title: 'Tik tok',
+                    link : 'www.tiktok.com',
+                    url:'https://qa-share.myjosh.in/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 5,
+                    home:'snapchat',
+                    image: 'snapchat-img.png',
+                    title: 'Snapchat',
+                    link : 'www.snapchat.com',
+                    url:'https://www.snapchat.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 6,
+                    home:'whatsapp',
+                    image: 'whatsapp-link.png',
+                    title: 'Whatsapp',
+                    link : 'www.whatsapp.com',
+                    url:'https://www.whatsapp.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 7,
+                    home:'twitter',
+                    image: 'twitter-img.png',
+                    title: 'Twitter',
+                    link : 'www.twitter.com',
+                    url:'https://www.twitter.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 8,
+                    home:'facebook',
+                    image: 'facebook.png',
+                    title: 'Facebook',
+                    link : 'www.facebook.com',
+                    url:'https://www.facebook.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 9,
+                    home:'amazonmusic',
+                    image: 'amazon-mus.jpeg',
+                    title: 'Amazonmusic',
+                    link : 'www.amazon.com',
+                    url:'https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%3A443%2Fmusic%2Fprime%2Fsignup%3FcancelRedirectURL%3DL211c2lj%26ref_%3Ddm_lnd_ub_pmtr_f723dc94%26redirectURL%3DL211c2lj&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_webamp_us&openid.mode=checkid_setup&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_cpweb&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0',
+                    share:'link-share.png',
+                },
+                {
+                    id: 10,
+                    home:'gaana',
+                    image: 'gaana-img.jpeg',
+                    title: 'Gaana',
+                    link : 'www.gaana.com',
+                    url:'https://gaana.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 11,
+                    home:'github',
+                    image: 'githubb.png',
+                    title: 'Github',
+                    link : 'www.github.com',
+                    url:'https://www.github.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 12,
+                    home:'line',
+                    image: 'line-img.png',
+                    title: 'Line',
+                    link : 'www.line.com',
+                    url:'https://line.me/en/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 13,
+                    home:'zomato',
+                    image: 'zomato.jpeg',
+                    title: 'zomato',
+                    link : 'www.zomato.com',
+                    url:'https://www.zomato.com/india',
+                    share:'link-share.png',
+                },
+                {
+                    id: 14,
+                    home:'mesenger',
+                    image: 'mesenger-img.png',
+                    title: 'Messenger',
+                    link : 'www.mesenger.com',
+                    url:'https://www.messenger.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 15,
+                    home:'mimus',
+                    image: 'mimus.jpeg',
+                    title: 'MImusic',
+                    link : 'www.mimusic.com',
+                    url:'https://www.mimusic.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 16,
+                    home:'skype',
+                    image: 'skype-img.png',
+                    title: 'Skype',
+                    link : 'www.skype.com',
+                    url:'https://www.skype.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 17,
+                    home:'spotify',
+                    image: 'spotify-img.png',
+                    title: 'Spotify',
+                    link : 'www.spotify.com',
+                    url:'https://www.spotify.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 18,
+                    home:'telegram',
+                    image: 'telegram-img.png',
+                    title: 'Telegram',
+                    link : 'www.telegram.com',
+                    url:'https://telegram.org/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 19,
+                    home:'threads',
+                    image: 'threads-img.png',
+                    title: 'Threads',
+                    link : 'www.threads.com',
+                    url:'https://www.threads.net/login',
+                    share:'link-share.png',
+                },
+                {
+                    id: 20,
+                    home:'viber',
+                    image: 'viber-img.png',
+                    title: 'Viber',
+                    link : 'www.viber.com',
+                    url:'https://www.viber.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 21,
+                    home:'wechat',
+                    image: 'wechat-img.png',
+                    title: 'Wechat',
+                    link : 'www.wechat.com',
+                    url:'https://www.wechat.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 22,
+                    home:'wynk',
+                    image: 'wnk.jpeg',
+                    title: 'Wynk',
+                    link : 'www.wynk.com',
+                    url:'https://wynk.in/music',
+                    share:'link-share.png',
+                },
+                {
+                    id: 23,
+                    home:"ytmusic",
+                    image: 'YT-img.jpeg',
+                    title: 'Ytmusic',
+                    link : 'www.Ytmusic.com',
+                    url:'https://www.bing.com/ck/a?!&&p=1f6d4dd7b92322beJmltdHM9MTY5NzQxNDQwMCZpZ3VpZD0xNGI5ZWI4Ny1mOWQ4LTZmOGMtM2M5ZC1mOGNmZjg2YTZlZWEmaW5zaWQ9NTIyMA&ptn=3&hsh=3&fclid=14b9eb87-f9d8-6f8c-3c9d-f8cff86a6eea&psq=yt+music&u=a1aHR0cHM6Ly9tdXNpYy55b3V0dWJlLmNvbS8&ntb=1',
+                    share:'link-share.png',
+                },
+                {
+                    id: 24,
+                    home:"hungama",
+                    image: 'hug.jpeg',
+                    title: 'Hungama',
+                    link : 'www.hungama.com',
+                    url:'https://www.hungama.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 25,
+                    home:"musicappstream",
+                    image: 'musicapp.jpeg',
+                    title: 'Musicappstream',
+                    link : 'www.musicapp.com',
+                    url:'https://www.bing.com/ck/a?!&&p=21351ac811f684ccJmltdHM9MTY5NzQxNDQwMCZpZ3VpZD0xNGI5ZWI4Ny1mOWQ4LTZmOGMtM2M5ZC1mOGNmZjg2YTZlZWEmaW5zaWQ9NTI1NQ&ptn=3&hsh=3&fclid=14b9eb87-f9d8-6f8c-3c9d-f8cff86a6eea&psq=music+app+stream+&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWNvbS5kaml0LmFwcHMuc3RyZWFt&ntb=1',
+                    share:'link-share.png',
+                },
+                {
+                    id: 26,
+                    home:"musicplayer",
+                    image: 'mu.jpeg',
+                    title: 'Musicplayer',
+                    link : 'www.musicplay.com',
+                    url:'https://play.google.com/store/apps/details?id=media.audioplayer.musicplayer&pcampaignid=web_share',
+                    share:'link-share.png',
+                },
+                {
+                    id: 27,
+                    home:"jiosaavn",
+                    image: 'jio.jpeg',
+                    title: 'Jiosaavn',
+                    link : 'www.jiosaavn.com',
+                    url:'https://www.jiosaavn.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 28,
+                    home:"ressomusic",
+                    image: 'resso.jpeg',
+                    title: 'Ressomusic',
+                    link : 'www.resso.com',
+                    url:'https://www.resso.com/album/Login-6736116538993022977',
+                    share:'link-share.png',
+                },
+                {
+                    id: 29,
+                    home:"soundcloud",
+                    image: 'sound.jpeg',
+                    title: 'Soundcloud',
+                    link : 'www.soundcld.com',
+                    url:'https://www.soundcloud.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 30,
+                    home:"amazon",
+                    image: 'amazon-img.png',
+                    title: 'Amazon',
+                    link : 'www.amazon.com',
+                    url:'https://www.amazon.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 31,
+                    home:"flipkart",
+                    image: 'flipkart-img.jpeg',
+                    title: 'Flipkart',
+                    link : 'www.flipkart.com',
+                    url:'https://www.flipkart.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 32,
+                    home:"meesho",
+                    image: 'messho.jpeg',
+                    title: 'Meesho',
+                    link : 'www.meesho.com',
+                    url:'https://www.meesho.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 33,
+                    home:"myntra",
+                    image: 'myntra.jpeg',
+                    title: 'Myntra',
+                    link : 'www.myntra.com',
+                    url:'https://www.myntra.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 34,
+                    home:"ajio",
+                    image: 'ajio.jpeg',
+                    title: 'Ajio',
+                    link : 'www.ajio.com',
+                    url:'https://www.ajio.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 35,
+                    home:"snapdeal",
+                    image: 'snapdael.jpeg',
+                    title: 'Snapdeal',
+                    link : 'www.snapdeal.com',
+                    url:'https://www.snapdeal.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 36,
+                    home:"swiggy",
+                    image: 'swiggy.jpeg',
+                    title: 'Swiggy',
+                    link : 'www.swiggy.com',
+                    url:'https://www.swiggy.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 37,
+                    home:"bigbasket",
+                    image: 'bigbas.jpeg',
+                    title: 'Bigbasket',
+                    link : 'www.bigbasket.com',
+                    url:'https://www.bigbasket.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 38,
+                    home:"bigbazzar",
+                    image: 'bigbazzar.jpeg',
+                    title: 'Bigbazaar',
+                    link : 'www.bigbazzar.com',
+                    url:'https://bigbazaar.com.co',
+                    share:'link-share.png',
+                },
+                {
+                    id: 39,
+                    home:"ebay",
+                    image: 'ebay-bla.png',
+                    title: 'Ebay',
+                    link : 'www.ebay.com',
+                    url:'https://www.ebay.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 40,
+                    home:"tira",
+                    image: 'tira.jpeg',
+                    title: 'Tira',
+                    link : 'www.tira.com',
+                    url:'https://www.tirabeauty.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 41,
+                    home:"lenskart",
+                    image: 'lenskart.jpeg',
+                    title: 'Lenskart',
+                    link : 'www.lenskart.com',
+                    url:'https://www.lenskart.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 42,
+                    home:"olx",
+                    image: 'olx.jpeg',
+                    title: 'Olx',
+                    link : 'www.olx.com',
+                    url:'https://www.olx.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 43,
+                    home:"tatacliq",
+                    image: 'tattta.jpeg',
+                    title: 'Tatacliq',
+                    link : 'www.tatacliq.com',
+                    url:'https://www.tatacliq.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 44,
+                    home:"shopify",
+                    image: 'shopify.png',
+                    title: 'Shopify',
+                    link : 'www.shopify.com',
+                    url:'https://www.shopify.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 45,
+                    home:"shoppingzone",
+                    image: 'shoopingzone.jpeg',
+                    title: 'Shoppingzone',
+                    link : 'www.shopping.com',
+                    url:'https://www.shoppingzone.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 46,
+                    home:"naaptol",
+                    image: 'naaptol.jpeg',
+                    title: 'Naaptol',
+                    link : 'www.naaptol.com',
+                    url:'https://www.naaptol.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 47,
+                    home:"shopsy",
+                    image: 'shopsy.jpeg',
+                    title: 'Shopsy',
+                    link : 'www.shopsy.com',
+                    url:'https://www.shopsy.in/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 48,
+                    home:"max",
+                    image: 'max.jpeg',
+                    title: 'Max',
+                    link : 'www.max.com',
+                    url:'',
+                    share:'link-share.png',
+                },
+                {
+                    id: 49,
+                    home:"lazada",
+                    image: 'lazada.jpeg',
+                    title: 'Lazada',
+                    link : 'www.lazada.com',
+                    url:'https://www.lazada.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 50,
+                    home:"google",
+                    image: 'google.png',
+                    title: 'Google',
+                    link : 'www.google.com',
+                    url:'https://www.google.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 51,
+                    home:"chromee",
+                    image: 'chrome.png',
+                    title: 'Chrome',
+                    link : 'www.chrome.com',
+                    url:'https://www.chrome.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 52,
+                    home:"opera",
+                    image: 'opera.png',
+                    title: 'Opera',
+                    link : 'www.opera.com',
+                    url:'https://www.opera.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 53,
+                    home:"firefox",
+                    image: 'firefox.png',
+                    title: 'firefox',
+                    link : 'www.firefox.com',
+                    url:'https://www.firefox.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 54,
+                    home:"uc",
+                    image: 'ucbrowser.jpeg',
+                    title: 'Ucbrowser',
+                    link : 'www.Ucbrowser.com',
+                    url:'https://www.ucbrowser.io/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 55,
+                    home:"vidmate",
+                    image: 'vidmate.jpeg',
+                    title: 'Vidmate',
+                    link : 'www.vidmate.com',
+                    url:'https://vidmate.gdn/download/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 56,
+                    home:"microsoft",
+                    image: 'microsoft.jpeg',
+                    title: 'Microsoft',
+                    link : 'www.microsoft.com',
+                    url:'https://www.microsoft.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 57,
+                    home:"safari",
+                    image: 'safa.jpeg',
+                    title: 'Safari',
+                    link : 'www.safari.com',
+                    url:'https://www.safari.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 58,
+                    home:"internet",
+                    image: 'internet.jpeg',
+                    title: 'Internet',
+                    link : 'www.internet.com',
+                    url:'https://www.internet.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 59,
+                    home:"brave",
+                    image: 'brave.jpeg',
+                    title: 'Brave',
+                    link : 'www.brave.com',
+                    url:'https://www.brave.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 60,
+                    home:"vivaldi",
+                    image: 'vivaldi.jpeg',
+                    title: 'Vivaldi',
+                    link : 'www.vivaldi.com',
+                    url:'https://www.vivaldi.com/',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 61,
+                    home:"duck",
+                    image: 'duck.jpeg',
+                    title: 'Duckduckgo',
+                    link : 'www.duck.com',
+                    url:'https://duckduckgo.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 62,
+                    home:"chro",
+                    image: 'chromium.jpeg',
+                    title: 'Chromium',
+                    link : 'www.chromium.com',
+                    url:'https://chromium.woolyss.com/',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 63,
+                    home:"byju",
+                    image: 'byju.jpeg',
+                    title: 'Byjus',
+                    link : 'www.Byjus.com',
+                    url:'https://students.byjus.com/mobiles/sign_in',
+                    share:'link-share.png',
+                },
+              
+              
+                {
+                    id: 64,
+                    home:"unacade",
+                    image: 'unacada.jpeg',
+                    title: 'Unacademey',
+                    link : 'www.Unacadem.com',
+                    url:'https://unacademy.com/login',
+                    share:'link-share.png',
+                },
+              
+              
+                {
+                    id: 65,
+                    home:"vedantu",
+                    image: 'vedantu.jpeg',
+                    title: 'Vedantu',
+                    link : 'www.vedantu.com',
+                    url:'https://www.vedantu.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 66,
+                    home:"toppr",
+                    image: 'top.jpeg',
+                    title: 'Toppr',
+                    link : 'www.toppr.com',
+                    url:'https://www.toppr.com/login/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 67,
+                    home:"Diksha",
+                    image: 'diksha.jpeg',
+                    title: 'Diksha',
+                    link : 'www.Diksha.com',
+                    url:'https://diksha.gov.in/help/getting-started/login/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 68,
+                    home:"Greatlearing",
+                    image: 'great.jpeg',
+                    title: 'Greatlearing',
+                    link : 'www.Greatlearn.com',
+                    url:'https://olympus.mygreatlearning.com/login',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 69 ,
+                    home:"Udemy",
+                    image: 'Udemy.jpeg',
+                    title: 'Udemy',
+                    link : 'www.Udemy.com',
+                    url:'https://www.udemy.com/join/login-popup/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 70 ,
+                    home:"Masterclass",
+                    image: 'master.png',
+                    title: 'Masterclass',
+                    link : 'www.Mastercla.com',
+                    url:'https://www.masterclass.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 71,
+                    home:"couresra",
+                    image: 'couresra.jpeg',
+                    title: 'couresra',
+                    link : 'www.couresra.com',
+                    url:'https://www.coursera.org/courseraplus?utm_source',
+                    share:'link-share.png',
+                },
+                {
+                    id: 72,
+                    home:"Upgrad",
+                    image: 'upgrad.jpeg',
+                    title: 'Upgrad',
+                    link : 'www.Upgrad.com',
+                    url:'https://www.upgrad.com/login/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 73,
+                    home:"Skillshare",
+                    image: 'skill.jpeg',
+                    title: 'Skillshare',
+                    link : 'www.Skillshare.com',
+                    url:'https://www.skillshare.com/en/login?msclkid=d717c6a976d213376851a38757d752d9',
+                    share:'link-share.png',
+                },
+                {
+                    id: 74,
+                    home:"lectera",
+                    image: 'lectera.jpg',
+                    title: 'lectera',
+                    link : 'www.lectera.com',
+                    url:'https://lectera.com/en',
+                    share:'link-share.png',
+                },
+                {
+                    id: 75,
+                    home:"openlearn",
+                    image: 'openlearn.jpeg',
+                    title: 'openlearn',
+                    link : 'www.openlearn.com',
+                    url:'https://www.open.edu/openlearn/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 76,
+                    home:"Edx",
+                    image: 'edxxxxx.jpeg',
+                    title: 'Edx',
+                    link : 'www.Edx.com',
+                    url:'https://www.edx.org/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 77,
+                    home:"Futurelearn",
+                    image: 'future.jpeg',
+                    title: 'Futurelearn',
+                    link : 'www.Futurele.com',
+                    url:'https://www.futurelearn.com/sign-in',
+                    share:'link-share.png',
+                },
+                {
+                    id: 78,
+                    home:"codacademey",
+                    image: 'code.jpg',
+                    title: 'codacademey',
+                    link : 'www.codacade.com',
+                    url:'https://www.codecademy.com/?utm_id=t_kwd-79508866987466:loc-90:ag_1272135659653067:cp_370462068:n_o:d_c&msclkid=6643a69254fe1a3bc483c3bc75150399&utm_source=bing&utm_medium=cpc&utm_campaign=INTL_Brand_Phrase&utm_term=code%20academy&utm_content=Codecademy',
+                    share:'link-share.png',
+                },
+                {
+                    id: 79,
+                    home:"w3school",
+                    image: 'w3school.jpeg',
+                    title: 'W3school',
+                    link : 'www.w3school.com',
+                    url:'https://www.w3schools.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 80,
+                    home:"Guvi",
+                    image: 'Guvi.jpeg',
+                    title: 'Guvi',
+                    link : 'www.Guvi.com',
+                    url:'https://www.guvi.in/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 81,
+                    home:"udacity",
+                    image: 'udacity.jpeg',
+                    title: 'Udacity',
+                    link : 'www.udacity.com',
+                    url:'https://www.udacity.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 82,
+                    home:"Khancademey",
+                    image: 'khan.jpeg',
+                    title: 'Khancademey',
+                    link : 'www.Khancad.com',
+                    url:'https://www.khanacademy.org/',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 83,
+                    home:"Alison",
+                    image: 'alison.jpeg',
+                    title: 'Alison',
+                    link : 'www.Alison.com',
+                    url:'https://alison.com/?utm_source=bing&utm_medium=cpc&utm_campaign=530823303&utm_content=1358998875731562&utm_term=kwd-84938561416076:loc-90&msclkid=67232540132714d0f6e3406e3034cc2f',
+                    share:'link-share.png',
+                },
+                {
+                    id: 84,
+                    home:"Pluralsight",
+                    image: 'plural.jpeg',
+                    title: 'Pluralsight',
+                    link : 'www.Pluralst.com',
+                    url:'https://www.pluralsight.com/product/skills?utm',
+                    share:'link-share.png',
+                },
+                {
+                    id: 85,
+                    home:"Datacamp",
+                    image: 'data.jpeg',
+                    title: 'Datacamp',
+                    link : 'www.Datacamp.com',
+                    url:'https://www.datacamp.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 86,
+                    home:"Photoshop",
+                    image: 'photoshop.png',
+                    title: 'Photoshop',
+                    link : 'www.Photoshop.com',
+                    url:'https://www.wizcase.com/download/adobe-photoshop/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 87,
+                    home:"Adobeillustrator",
+                    image: 'ai.jpeg',
+                    title: 'Adobeillustrator',
+                    link : 'www.Adobeillur.com',
+                    url:'https://www.adobe.com/in/products/illustrator/campaign/pricing.html?sdid=QQ42P3HM&mv=search&mv2=paidsearch&ef_id=fc4628b844de1e2e714a4d9661d6bba0:G:s&s_kwcid=AL!3085!10!79439917660616!79440073865045&msclkid=fc4628b844de1e2e714a4d9661d6bba0&utm_source=bing&utm_medium=cpc&utm_campaign=IN%7CCPRO%7CDesign%7CCORE%7CAI_hv_Exact%7CBNG%7C%7C&utm_term=Adobe%20Illustrator&utm_content=in%3Cai%3Cpurch%3Cbr%3C%3C%3Chv%3Cexact',
+                    share:'link-share.png',
+                },
+                {
+                    id: 88,
+                    home:"Adobeindesign",
+                    image: 'adobeid.jpeg',
+                    title: 'Adobeindesign',
+                    link : 'www.Adobeid.com',
+                    url:'https://www.adobe.com/in/products/indesign.html?sdid=GR3XY2HR&mv=search&mv2=paidsearch&ef_id=b675291b6f9e103513bf4c354ac055be:G:s&s_kwcid=AL!3085!10!78890162682998!78890317470279&msclkid=b675291b6f9e103513bf4c354ac055be&utm_source=bing&utm_medium=cpc&utm_campaign=IN%7CCPRO%7CDesign%7CCORE%7CID_hv_Exact%7CBNG%7C%7C&utm_term=Adobe%20InDesign&utm_content=in%3Cid%3Cpurch%3Cbr%3C%3C%3Chv%3Cexact',
+                    share:'link-share.png',
+                },
+                {
+                    id: 89,
+                    home:"Canva",
+                    image: 'canva.jpeg',
+                    title: 'Canva',
+                    link : 'www.Canva.com',
+                    url:'https://www.canva.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 90,
+                    home:"Xara",
+                    image: 'xara.jpeg',
+                    title: 'Xara',
+                    link : 'www.Xara.com',
+                    url:'https://www.xara.com/designerpro-plus/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 91,
+                    home:"Vectr",
+                    image: 'vectr.jpeg',
+                    title: 'Vectr',
+                    link : 'www.Vectr.com',
+                    url:'https://vectr.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 92,
+                    home:"Sketch",
+                    image: 'sketch.jpeg',
+                    title: 'Sketch',
+                    link : 'www.Sketch.com',
+                    url:'https://www.sketch.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 93,
+                    home:"Figma",
+                    image: 'figm.jpeg',
+                    title: 'Figma',
+                    link : 'www.Figma.com',
+                    url:'https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1260179123681357926',
+                    share:'link-share.png',
+                },
+                {
+                    id: 94,
+                    home:"Inkscape",
+                    image: 'ink.jpeg',
+                    title: 'Inkscape',
+                    link : 'www.Inkscape.com',
+                    url:'https://inkscape.org/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 95,
+                    home:"Wix",
+                    image: 'wix.png',
+                    title: 'Wix',
+                    link : 'www.Wix.com',
+                    url:'https://www.web.com/compare-web-vs-wix1?siteid=46085836&channelid=P11C46085836S570N0B5579A16D4499E0000V112&gclid=d8511a510d0e143c57b27f7f2bdf0c2f&gclsrc=3p.ds&&s_kwcid=AL!6168!3!!e!!o!!wix%20in&msclkid=d8511a510d0e143c57b27f7f2bdf0c2f&utm_source=bing&utm_medium=cpc&utm_campaign=WCOM%20-%20Gen%20-%20DIY_Competitor_Wix%20-%20ROW&utm_term=wix%20in&utm_content=Wix%202021',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 96,
+                    home:"Adobeexpress",
+                    image: 'adobe.jpeg',
+                    title: 'Adobeexpress',
+                    link : 'www.Adobeexpr.com',
+                    url:'https://www.adobe.com/express/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 96,
+                    home:"Snappa",
+                    image: 'snappa.jpeg',
+                    title: 'Snappa',
+                    link : 'www.Snappa.com',
+                    url:'https://snappa.com/',
+                    share:'link-share.png',
+                },
+        
+                {
+                    id: 98,
+                    home:"Flaticoin",
+                    image: 'flat.jpeg',
+                    title: 'Flaticoin',
+                    link : 'www.Flaticoin.com',
+                    url:'https://www.flaticon.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 99,
+                    home:"Freepik",
+                    image: 'freepik.jpeg',
+                    title: 'Freepik',
+                    link : 'www.Freepik.com',
+                    url:'https://www.freepik.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 100,
+                    home:"Storyset",
+                    image: 'storyset.jpeg',
+                    title: 'Storyset',
+                    link : 'www.Storyset.com',
+                    url:'https://storyset.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 101,
+                    home:"Feather",
+                    image: 'feather.jpeg',
+                    title: 'Feather',
+                    link : 'www.Feather.com',
+                    url:'https://feathermc.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 102,
+                    home:"Tablericon",
+                    image: 'tabler.jpeg',
+                    title: 'Tablericon',
+                    link : 'www.Tablericon.com',
+                    url:'https://tabler.io/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 103,
+                    home:"Iconscout",
+                    image: 'iconsco.jpeg',
+                    title: 'Iconscout',
+                    link : 'www.Iconscout.com',
+                    url:'https://iconscout.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 104,
+                    home:"Undraw",
+                    image: 'undraw.jpeg',
+                    title: 'Tablericon',
+                    link : 'www.Undraw.com',
+                    url:'https://undraw.co/',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 105,
+                    home:"Pixabay",
+                    image: 'pixabay.jpeg',
+                    title: 'Pixabay',
+                    link : 'www.Pixabay.com',
+                    url:'https://pixabay.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 106,
+                    home:"Uplash",
+                    image: 'uplash.jpeg',
+                    title: 'Uplash',
+                    link : 'www.Uplash.com',
+                    url:'https://unsplash.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 107,
+                    home:"Behance",
+                    image: 'behance.jpeg',
+                    title: 'Behance',
+                    link : 'www.Behance.com',
+                    url:'https://www.behance.net/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 108,
+                    home:"Icon8",
+                    image: 'icon8.jpeg',
+                    title: 'Icon8',
+                    link : 'www.Icon8.com',
+                    url:'https://icons.docs.icons8.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 109,
+                    home:"Remini",
+                    image: 'remini.jpeg',
+                    title: 'Remini',
+                    link : 'www.Remini.com',
+                    url:'https://remini.ai/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 110,
+                    home:"Skecthbook",
+                    image: 'sketbook.jpeg',
+                    title: 'Skecthbook',
+                    link : 'www.Skecthbook.com',
+                    url:'https://www.sketchbook.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 111,
+                    home:"Picsart",
+                    image: 'pics.jpeg',
+                    title: 'Picsart',
+                    link : 'www.Picsart.com',
+                    url:'https://picsart.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 112,
+                    home:"B612",
+                    image: 'b612.jpeg',
+                    title: 'B612',
+                    link : 'www.B612.com',
+                    url:'https://b612.snow.me/',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 113,
+                    home:"Lightroom",
+                    image: 'lightroom.jpeg',
+                    title: 'Lightroom',
+                    link : 'www.Lightroom.com',
+                    url:'https://www.adobe.com/in/products/photoshop-lightroom/campaign/pricing.html?sdid=WPHDJ447&mv=search&mv2=paidsearch&ef_id=0b459720427b1b338fb0f20e68fd8a6c:G:s&s_kwcid=AL!3085!10!79371200131711!79371183898711',
+                    share:'link-share.png',
+                },
+                {
+                    id: 114,
+                    home:"Snapseed",
+                    image: 'snapseed.jpeg',
+                    title: 'Snapseed',
+                    link : 'www.Snapseed.com',
+                    url:'https://snapseedofficial.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 115,
+                    home:"Motionleap",
+                    image: 'motionleap.jpeg',
+                    title: 'Motionleap',
+                    link : 'www.Motionleap.com',
+                    url:'https://play.google.com/store/apps/details?id=com.lightricks.pixaloop',
+                    share:'link-share.png',
+                },
+                {
+                    id: 116,
+                    home:"Youcamperfect",
+                    image: 'youcamperfect.jpeg',
+                    title: 'Youcamperfect',
+                    link : 'www.Youcamper.com',
+                    url:'https://play.google.com/store/apps/details?id=com.cyberlink.youperfect',
+                    share:'link-share.png',
+                },
+                {
+                    id: 117,
+                    home:"LightX",
+                    image: 'lightx.jpeg',
+                    title: 'Light X',
+                    link : 'www.LightX.com',
+                    url:'https://www.lightxeditor.com/photo-editing/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 118,
+                    home:"Photoeditorpro",
+                    image: 'photoeditorpro.jpeg',
+                    title: 'Polish',
+                    link : 'www.Photoeditor.com',
+                    url:'https://play.google.com/store/apps/details?id=photo.editor.photoeditor.photoeditorpro',
+                    share:'link-share.png',
+                },
+                {
+                    id: 119,
+                    home:"Faceapp",
+                    image: 'faceapp.jpeg',
+                    title: 'Faceapp',
+                    link : 'www.Faceapp.com',
+                    url:'https://www.faceapp.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 120,
+                    home:"Photoroom",
+                    image: 'photoroom.jpeg',
+                    title: 'Photoroom',
+                    link : 'www.Photoroom.com',
+                    url:'https://www.photoroom.com/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 121,
+                    home:"Epik",
+                    image: 'epik.jpeg',
+                    title: 'Epik',
+                    link : 'www.Epik.com',
+                    url:'https://play.google.com/store/apps/details?id=com.snowcorp.epik',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 122,
+                    home:"Prequel",
+                    image: 'prequel.jpeg',
+                    title: 'Prequel',
+                    link : 'www.Prequel.com',
+                    url:'https://prequel.app/',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 123,
+                    home:"Snowai",
+                    image: 'snowaiprofile.jpeg',
+                    title: 'Snow ai',
+                    link : 'www.Snowai.com',
+                    url:'https://play.google.com/store/apps/details?id=com.campmobile.snow',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 124,
+                    home:"Instasize",
+                    image: 'instasize.jpeg',
+                    title: 'Instasize',
+                    link : 'www.Instasize.com',
+                    url:'https://instasize.com/',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 125,
+                    home:"Cymera",
+                    image: 'cymera.jpeg',
+                    title: 'Cymera',
+                    link : 'www.Cymera.com',
+                    url:'https://www.cymera.com/main/en',
+                    share:'link-share.png',
+                },
+              
+                {
+                    id: 126,
+                    home:"Pixler",
+                    image: 'pixxx.jpeg',
+                    title: 'Pixler',
+                    link : 'www.Pixler.com',
+                    url:'https://pixlr.com/editor/',
+                    share:'link-share.png',
+                },
+                {
+                    id: 127,
+                    home:"Backgroundremove",
+                    image: 'bgremove.jpeg',
+                    title: 'Removebg',
+                    link : 'www.removebg.com',
+                    url:'https://www.remove.bg/',
+                    share:'link-share.png',
+                },
+              
+                
+            ];
+    
+            const categories = [...new Set(product.map((item) => { return item }))]
+    
+            document.getElementById('searchBar').addEventListener('keyup', (e) => {
+                const searchData = e.target.value.toLowerCase();
+                const filteredData = categories.filter((item) => {
+                    return (
+                        item.title.toLowerCase().includes(searchData)
+                    )
+                })
+                displayItem(filteredData)
+            });
+    
+            const displayItem = (items) => {
+                document.getElementById('root').innerHTML = items.map((item) => {
+                    var { image, title, link,url,share,home} = item;
+                    return (
+                        `<div class='boxm'>
+                            <img src=${image}></img>
+                                <p>${title}</p>
+                                <h2>link : <a href=${url}><h1>${link}</h1></a></h2>
+                           <div class="share">
+                                <img src=${share} id=${home}></img>
+                             </div>   
+                        </div>`
+                    )
+                }).join('')
+            };
+            displayItem(categories);
+            
+        </script>
+            </div>
+            
+            
+    
+    <script type="text/javascript" src="js/homepg.js">
+        
+    
+    </script>
+       
+  
+    </section>
+</body>
+</html>
